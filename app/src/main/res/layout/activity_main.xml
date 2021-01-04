@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/sttStart"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_gravity="right"
+            android:layout_weight="1"
+            android:layout_x="356dp"
+            android:layout_y="-1dp"
+            android:background="@drawable/mic_icon" />
+
+        <Button
+            android:id="@+id/ttsStart"
+            android:layout_width="52dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:layout_x="50dp"
+            android:layout_y="0dp"
+            android:background="@drawable/voice_icon" />
+
+        <Button
+            android:id="@+id/ttsStop"
+            android:layout_width="49dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_weight="1"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="@drawable/ic_baseline_not_interested_24" />
+
+        <com.github.bassaer.chatmessageview.view.ChatView
+            android:id="@+id/my_chat_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.github.bassaer.chatmessageview.view.ChatView>
+    </AbsoluteLayout>
+</FrameLayout>
