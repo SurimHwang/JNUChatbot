@@ -18,3 +18,4 @@ Dialogflow를 이용한 전남대학교 인공지능 챗봇 '용봉이'<br/>
 스마트폰 앱 ‘JNU 용봉이’는 위치 정보에 관해 지도로 시각화된 답변을 받을 수 있으며 모든 대화 내용은 음성 지원이 가능하다.
 
 ## 실행 화면
+![image](https://user-images.githubusercontent.com/64747722/121368287-ed07cc80-c975-11eb-929e-89530b7e557b.png)![image](https://user-images.githubusercontent.com/64747722/121368303-f09b5380-c975-11eb-8a66-c15f0da97766.png)
